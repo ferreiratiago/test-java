@@ -24,7 +24,7 @@ public class Caller {
 
   public void testAPI() {
     int k = getSomeInt();
-    DummyAPI api = new DummyAPI(k);
+    DummyAPI api = new DummyAPI(k+1);
     RandomAPI rapi = new RandomAPI();
     String s = rapi.toString();
     setSomeInt(api.getNum());
