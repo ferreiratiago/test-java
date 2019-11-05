@@ -1,5 +1,8 @@
 package dev.marcelo.java;
 
+import dev.marcelo.dep.DummyAPI;
+import dev.marcelo.blib.RandomAPI;
+
 import dev.marcelo.java.pck.Callee;
 import dev.marcelo.java.pck.MEnum;
 
