@@ -1,0 +1,30 @@
+package dev.marcelo.java;
+
+import dev.marcelo.java.pck.Callee;
+import dev.marcelo.java.pck.MEnum;
+
+public class Caller {
+  private int someInt;
+  private final MEnum e = MEnum.ENUMA;
+
+  public Caller(int someInt) {
+    this.someInt = someInt;
+  }
+
+  public int getSomeInt() {
+    return someInt;
+  }
+
+  public void setSomeInt(int someInt) {
+    this.someInt = Callee.someInt + someInt;
+  }
+
+  public void testAPI() {
+    int k = getSomeInt();
+    DummyAPI api = new DummyAPI(k);
+    RandomAPI rapi = new RandomAPI();
+    String s = rapi.toString();
+    setSomeInt(api.getNum());
+  }
+
+}
