@@ -20,7 +20,7 @@ public class Caller {
   }
 
   public void setSomeInt(int someInt) {
-    this.someInt = Callee.someInt + someInt;
+    this.someInt = Callee.someInt + someInt + 1;
   }
 
   public void testAPI() {
