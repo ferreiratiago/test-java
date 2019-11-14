@@ -19,6 +19,10 @@ public class Caller {
     return someInt;
   }
 
+  public int increment() {
+    return this.someInt++;
+  }
+
   public void setSomeInt(int someInt) {
     this.someInt = Callee.someInt + someInt + 1;
   }
