@@ -1,8 +1,8 @@
-<h1 align="center">
+<h4 align="center">
 
 [![explore.dev logo](https://avatars0.githubusercontent.com/u/53522974?s=200&v=4)](https://explore.dev/)
 
-</h1>
+</h4>
 
 <h2 align="center">
 
