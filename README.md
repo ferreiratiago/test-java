@@ -4,5 +4,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/explore-dev/browser-ext/actions?query=workflow%3AMASTER"><img alt="Build Status" src="https://github.com/explore-dev/browser-ext/workflows/Master/badge.svg"></a>
+![master (stage)](https://github.com/explore-dev/browser-ext/workflows/master%20(stage)/badge.svg)
+![publish extension (stage)](https://github.com/explore-dev/browser-ext/workflows/publish%20extension%20(stage)/badge.svg)
+![master (prod)](https://github.com/explore-dev/browser-ext/workflows/master%20(prod)/badge.svg)
 </p>
