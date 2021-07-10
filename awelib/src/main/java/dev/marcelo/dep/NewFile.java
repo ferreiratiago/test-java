@@ -1,6 +1,6 @@
 package dev.marcelo.dep;
 
-public class DummyAPI {
+public class NewFile {
   private int num;
 
 
