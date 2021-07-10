@@ -1,3 +1,4 @@
+
 package dev.marcelo.java;
 
 import dev.marcelo.dep.DummyAPI;
@@ -12,15 +13,15 @@ public class Caller {
   private final MEnum e = MEnum.ENUMA;
 
   public Caller(int someInt) {
-    this.someInt = someInt;
+    this.someInt = 6;
   }
 
   public int getSomeInt() {
+    int cena = 3;
     return someInt;
   }
 
   public void setSomeInt(int someInt) {
-    this.someInt = Callee.someInt + someInt + 1;
   }
 
   public void testAPI() {
@@ -30,5 +31,4 @@ public class Caller {
     String s = rapi.toString();
     setSomeInt(api.getNum());
   }
-
 }
